@@ -4,7 +4,7 @@ body{
 }
 
 .App{
-  background-color:rgb(165, 164, 164);
+  background:  linear-gradient(to right ,#707070,#7e7c7c,#c4b3b3)
   
 }
 
@@ -12,10 +12,33 @@ body{
   margin:0;
   display:grid;
   grid-template-columns: 1fr 4fr;
-  height: 90vh;
+  
+  height: 100vh;
   width:100%;
-  background:rgb(151, 151, 151)
+  background:  linear-gradient(to right ,#707070,#7e7c7c,#c4b3b3);
+  
+  
 }
+
+.contain-other{
+  overflow: auto;
+  border-left: 5px solid rgb(65, 117, 185);
+}
+
+::-webkit-scrollbar{
+  width:10px;
+  
+}
+
+::-webkit-scrollbar-track{
+  background:white
+}
+
+::-webkit-scrollbar-thumb{
+  background:rgb(40, 46, 58);
+}
+
+
 
 @media  screen and (max-width:700px){
   .contain{
@@ -24,3 +47,4 @@ body{
     
   }
 };
+

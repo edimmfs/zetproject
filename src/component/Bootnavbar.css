@@ -1,0 +1,13 @@
+.navbar{
+    background:  linear-gradient(to right ,#707070,#7e7c7c,#c4b3b3);
+    font-size: 20px;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom:1px solid rgb(120, 120, 121);
+    font-weight: 600;
+}
+
+.title-navbar{
+    color: white;
+}
+

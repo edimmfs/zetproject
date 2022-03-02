@@ -1,0 +1,21 @@
+.Manage{
+    background-color: transparent;
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    
+}
+
+.Manage-tool{
+    background-color:rgb(224, 224, 224);
+    width: 50%;
+    height: 60%;
+    position: relative;
+    right:25%;
+    top: 10%;
+    border-radius:5px;
+    box-shadow: 5px 5px 10px grey;
+    padding:10px
+}

@@ -1,0 +1,54 @@
+
+.closeArrow{
+    display: flex;
+    justify-content: flex-end;
+    
+    margin:10px;
+    cursor: pointer;
+    
+}
+
+.content {
+    display: flex;
+    border: none;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    border-radius:2px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  
+
+  .content a {
+    font-weight:600;
+    color: black;
+    padding: 14px ;
+    text-decoration: none;
+    display: block;
+    border-top:1px solid rgb(202, 202, 202);
+    
+  }
+
+  .content a:hover{
+    background-color:rgb(176, 176, 177);
+  }
+
+  
+  
+
+  .closeArrow:hover{
+      transform: translateX(3px);
+      transition: 0.3s;
+  }
+  .events-manage-button{
+      float: left;
+      background-color: rgb(51, 78, 128);
+      border-radius: 5px;
+      padding:1px 10px;
+  }
+  .events-manage-button:hover{opacity:0.8}
+
+  
